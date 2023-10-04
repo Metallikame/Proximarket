@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFEEE"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="logo_prox_market"
+        android:src="@drawable/proxy_local_2" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="210dp"
+        android:layout_height="97dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="60dp"
+        android:layout_toEndOf="@+id/imageView2"
+        android:fontFamily="@font/fredoka_one"
+        android:text="Proxy Market"
+        android:textColor="#282828"
+        android:textSize="28sp" />
+
+    <Button
+        android:id="@+id/button_myproduct"
+        android:layout_below="@+id/imageView2"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="230dp"
+        android:background="@drawable/activity_connexion_border"
+        android:fontFamily="@font/fredoka_one"
+        android:text="Mes produits"
+        android:textColor="#FFFCFC"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/button_myprofil"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/imageView2"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/activity_input_description"
+        android:fontFamily="@font/fredoka_one"
+        android:text="Mon profil"
+        android:textColor="#FFFCFC"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_myprofil"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="90dp"
+        android:fontFamily="@font/fredoka_one"
+        android:text="Image"
+        android:textColor="#282828"
+        android:textSize="45sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_myprofil"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="50dp"
+        android:src="@drawable/add" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/fredoka_one"
+        android:text="Description"
+        android:textColor="#282828"
+        android:textSize="45sp" />
+
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@+id/textView17"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:gravity="top"
+        android:background="@drawable/border_edittext"
+        android:inputType="text|textMultiLine" />
+
+</RelativeLayout>

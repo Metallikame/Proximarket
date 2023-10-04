@@ -75,6 +75,6 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="20dp"
         android:contentDescription="logo_prox_market"
-        android:src="@drawable/Frame3" />
+        android:src="@drawable/frame3" />
 
 </RelativeLayout>
