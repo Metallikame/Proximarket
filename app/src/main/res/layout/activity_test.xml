@@ -34,24 +34,24 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/fredoka_one"
-        android:text="Pièce de boeuf"
+        android:text="Fromage râpé"
         android:textAlignment="center"
         android:textColor="#282828"
         android:textSize="28sp" />
 
     <ImageView
-        android:id="@+id/beef"
+        android:id="@+id/cheese"
         android:layout_below="@+id/textView8"
         android:layout_centerHorizontal="true"
         android:layout_width="200dp"
         android:layout_height="160dp"
         android:layout_marginTop="20dp"
         android:contentDescription="logo_prox_market"
-        android:src="@drawable/beef" />
+        android:src="@drawable/cheese" />
 
     <Button
         android:id="@+id/button3"
-        android:layout_below="@+id/beef"
+        android:layout_below="@+id/cheese"
         android:layout_width="200dp"
         android:layout_height="30dp"
         android:layout_marginTop="20dp"
@@ -67,7 +67,7 @@
         android:id="@+id/button4"
         android:layout_width="200dp"
         android:layout_height="30dp"
-        android:layout_below="@+id/beef"
+        android:layout_below="@+id/cheese"
         android:layout_marginLeft="230dp"
         android:layout_marginTop="20dp"
         android:layout_marginRight="50dp"
@@ -86,7 +86,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="15dp"
         android:max="100"
-        android:progress="87" />
+        android:progress="72" />
 
     <TextView
         android:id="@+id/textView9"
@@ -96,7 +96,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="38dp"
         android:fontFamily="@font/fredoka_one"
-        android:text="87"
+        android:text="72"
         android:textColor="#000000"
         android:textSize="42sp" />
 
@@ -108,7 +108,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/fredoka_one"
-        android:text="Eco-score : Très bon"
+        android:text="Eco-score : Bon"
         android:textColor="#000000"
         android:textSize="24sp" />
 
@@ -132,103 +132,7 @@
         android:layout_below="@+id/textView10"
         android:layout_marginTop="28dp"
         android:layout_marginRight="80dp"
-        android:layout_marginStart="220dp"
-        android:max="100"
-        android:progress="90" />
-
-    <TextView
-        android:id="@+id/textView17"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView16"
-        android:layout_marginLeft="25dp"
-        android:layout_marginTop="10dp"
-        android:fontFamily="@font/fredoka_one"
-        android:text="Rapport Qualité/Prix"
-        android:textColor="#282828"
-        android:textSize="18sp" />
-
-    <ProgressBar
-        android:id="@+id/progressBar3"
-        style="?android:attr/progressBarStyleHorizontal"
-        android:layout_width="180dp"
-        android:layout_height="10dp"
-        android:layout_below="@+id/progressBar2"
-        android:layout_marginTop="21dp"
-        android:layout_marginRight="80dp"
-        android:layout_marginStart="220dp"
-        android:max="100"
-        android:progress="90" />
-
-    <TextView
-        android:id="@+id/textView18"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView17"
-        android:layout_marginLeft="25dp"
-        android:layout_marginTop="10dp"
-        android:fontFamily="@font/fredoka_one"
-        android:text="Localisation"
-        android:textColor="#282828"
-        android:textSize="18sp" />
-
-    <ProgressBar
-        android:id="@+id/progressBar4"
-        style="?android:attr/progressBarStyleHorizontal"
-        android:layout_width="180dp"
-        android:layout_height="10dp"
-        android:layout_below="@+id/progressBar3"
-        android:layout_marginTop="22dp"
-        android:layout_marginRight="80dp"
-        android:layout_marginStart="220dp"
-        android:max="100"
-        android:progress="90" />
-
-    <TextView
-        android:id="@+id/textView19"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView18"
-        android:layout_marginLeft="25dp"
-        android:layout_marginTop="10dp"
-        android:fontFamily="@font/fredoka_one"
-        android:text="Empreinte Carbonne"
-        android:textColor="#282828"
-        android:textSize="18sp" />
-
-    <ProgressBar
-        android:id="@+id/progressBar21"
-        style="?android:attr/progressBarStyleHorizontal"
-        android:layout_width="180dp"
-        android:layout_height="10dp"
-        android:layout_below="@+id/progressBar4"
-        android:layout_marginTop="22dp"
-        android:layout_marginRight="80dp"
-        android:layout_marginStart="220dp"
-        android:max="100"
-        android:progress="90" />
-
-    <TextView
-        android:id="@+id/textView20"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView19"
-        android:layout_marginLeft="25dp"
-        android:layout_marginTop="10dp"
-        android:fontFamily="@font/fredoka_one"
-        android:text="Produit Responsable"
-        android:textColor="#282828"
-        android:textSize="17sp" />
-
-    <ProgressBar
-        android:id="@+id/progressBar6"
-        style="?android:attr/progressBarStyleHorizontal"
-        android:layout_width="180dp"
-        android:layout_height="10dp"
-        android:layout_below="@+id/progressBar21"
-        android:layout_marginTop="22dp"
-        android:layout_marginRight="80dp"
-        android:layout_marginStart="220dp"
+        android:layout_marginStart="200dp"
         android:max="100"
         android:progress="90" />
 
