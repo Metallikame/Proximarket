@@ -54,55 +54,31 @@
         android:textAlignment="center"
         tools:ignore="TextFields" />
 
+    <EditText
+        android:id="@+id/confirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/fredoka_one"
+        android:hint="Confirmation mot de passe"
+        android:inputType="text"
+        android:padding="25dp"
+        android:textAlignment="center"
+        tools:ignore="TextFields" />
+
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/buttonValidate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="70dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="60dp"
         android:layout_marginRight="70dp"
         android:layout_weight="0"
         android:background="@drawable/activity_connexion_border"
         android:fontFamily="@font/fredoka_one"
-        android:text="Connexion"
+        android:text="Valider"
         android:textColor="#FFFCFC"
         android:textSize="20sp" />
-
-    <CheckBox
-        android:id="@+id/checkBox"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
-        android:fontFamily="@font/fredoka_one"
-        android:text="Rester connecté"
-        android:textColor="#444444"
-        android:textSize="20sp" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="35dp"
-        android:fontFamily="@font/fredoka_one"
-        android:text="Vous n'avez pas encore de compte ?"
-        android:textAlignment="center"
-        android:textColor="#444444"
-        android:textSize="20sp" />
-
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="70dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginRight="70dp"
-        android:layout_weight="0"
-        android:background="@drawable/activity_connexion_border"
-        android:fontFamily="@font/fredoka_one"
-        android:text="Inscription"
-        android:textColor="#FFFFFF"
-        android:textSize="20sp" />
-
 
 </LinearLayout>
