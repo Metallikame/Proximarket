@@ -11,8 +11,8 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="165dp"
+        android:layout_height="162dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="70dp"
         android:contentDescription="logo_prox_market"
@@ -54,6 +54,7 @@
         android:textAlignment="center"
         tools:ignore="TextFields" />
 
+
     <Button
         android:id="@+id/button3"
         android:layout_width="match_parent"
@@ -68,11 +69,21 @@
         android:textColor="#FFFCFC"
         android:textSize="20sp" />
 
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/fredoka_one"
+        android:text="Rester connecté"
+        android:textColor="#444444"
+        android:textSize="20sp" />
+
     <TextView
         android:id="@+id/textView3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="55dp"
+        android:layout_marginTop="35dp"
         android:fontFamily="@font/fredoka_one"
         android:text="Vous n'avez pas encore de compte ?"
         android:textAlignment="center"
@@ -92,5 +103,6 @@
         android:text="Inscription"
         android:textColor="#FFFFFF"
         android:textSize="20sp" />
+
 
 </LinearLayout>
