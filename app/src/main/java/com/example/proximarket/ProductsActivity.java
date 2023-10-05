@@ -31,8 +31,8 @@ public class ProductsActivity extends Activity {
         laitfermier.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent beefActivity = new Intent(ProductsActivity.this, BeefActivity.class);
-                startActivity(beefActivity);
+                Intent milkActivity = new Intent(ProductsActivity.this, MilkActivity.class);
+                startActivity(milkActivity);
 
             }
         });
@@ -41,8 +41,8 @@ public class ProductsActivity extends Activity {
         curescore.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent beefActivity = new Intent(ProductsActivity.this, BeefActivity.class);
-                startActivity(beefActivity);
+                Intent cheeseActivity = new Intent(ProductsActivity.this, CheeseActivity.class);
+                startActivity(cheeseActivity);
 
             }
         });
