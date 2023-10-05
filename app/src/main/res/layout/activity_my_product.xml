@@ -57,13 +57,14 @@
 
     <ImageView
         android:id="@+id/products"
-        android:layout_below="@+id/button_myprofil"
-        android:layout_centerHorizontal="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/button_myprofil"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
         android:contentDescription="products"
-        android:src="@drawable/products" />
+        android:src="@drawable/products"
+        android:visibility="visible" />
 
     <ImageView
         android:id="@+id/score72"
