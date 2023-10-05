@@ -55,7 +55,8 @@
         android:layout_below="@+id/milk"
         android:background="#FFFEEE"
         android:orientation="vertical"
-        android:visibility="visible">
+        android:visibility="visible"
+        android:id="@+id/layout_achat">
 
         <Button
             android:id="@+id/buttonScore1"
@@ -183,7 +184,8 @@
         android:layout_below="@+id/milk"
         android:background="#FFFEEE"
         android:orientation="vertical"
-        android:visibility="gone">
+        android:visibility="gone"
+        android:id="@+id/layout_score">
 
         <Button
             android:id="@+id/buttonScore2"
@@ -390,7 +392,8 @@
         android:layout_below="@+id/milk"
         android:background="#FFFEEE"
         android:orientation="vertical"
-        android:visibility="gone">
+        android:visibility="gone"
+        android:id="@+id/layout_infos">
 
         <Button
             android:id="@+id/buttonScore3"
