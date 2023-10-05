@@ -54,7 +54,8 @@
         android:layout_height="match_parent"
         android:layout_below="@+id/beef"
         android:background="#FFFEEE"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:id="@+id/layout_achat">
 
     <Button
         android:id="@+id/buttonScore1"
@@ -179,10 +180,11 @@
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:visibility="gone"
         android:layout_below="@+id/beef"
         android:background="#FFFEEE"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:id="@+id/layout_score">
 
         <Button
             android:id="@+id/buttonScore2"
@@ -379,7 +381,6 @@
         android:layout_marginStart="220dp"
         android:max="100"
         android:progress="90" />
-
     </RelativeLayout>
 
     <!-- Partie  Infos-->
@@ -387,10 +388,11 @@
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:visibility="gone"
         android:layout_below="@+id/beef"
         android:background="#FFFEEE"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:id="@+id/layout_infos">
 
         <Button
             android:id="@+id/buttonScore3"
