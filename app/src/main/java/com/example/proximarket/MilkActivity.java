@@ -46,143 +46,88 @@ public class MilkActivity extends Activity {
             @Override
             public void onClick(View v) {
                 Log.d("Clic", "Button Achat cliqué");
-                if (layout_achat.getVisibility() == View.GONE) {
-                    layout_achat.setVisibility(View.VISIBLE); // Afficher la vue
-                    layout_score.setVisibility(View.GONE); // Masquer la vue
-                    layout_infos.setVisibility(View.GONE); // Masquer la vue
-                } else {
-                    layout_achat.setVisibility(View.GONE); // Masquer la vue
-                    layout_score.setVisibility(View.VISIBLE); // Afficher la vue
-                    layout_infos.setVisibility(View.VISIBLE); // Afficher la vue
-                }
+                layout_achat.setVisibility(View.VISIBLE); // Afficher la vue
+                layout_score.setVisibility(View.GONE); // Masquer la vue
+                layout_infos.setVisibility(View.GONE); // Masquer la vue
             }
         });
 
         buttonScore1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Log.d("Clic", "Button 3 cliqué");
-                if (layout_score.getVisibility() == View.GONE) {
-                    layout_achat.setVisibility(View.GONE); // Masquer la vue
-                    layout_score.setVisibility(View.VISIBLE); // Afficher la vue
-                    layout_infos.setVisibility(View.GONE); // Masquer la vue
-                } else {
-                    layout_achat.setVisibility(View.VISIBLE); // Afficher la vue
-                    layout_score.setVisibility(View.GONE); // Masquer la vue
-                    layout_infos.setVisibility(View.VISIBLE); // Afficher la vue
-                }
+                Log.d("Clic", "Button Score cliqué");
+                layout_achat.setVisibility(View.GONE); // Masquer la vue
+                layout_score.setVisibility(View.VISIBLE); // Afficher la vue
+                layout_infos.setVisibility(View.GONE); // Masquer la vue
             }
         });
 
         buttonInfo1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Log.d("Clic", "Button 4 cliqué");
-                if (layout_infos.getVisibility() == View.GONE) {
-                    layout_achat.setVisibility(View.GONE); // Masquer la vue
-                    layout_score.setVisibility(View.GONE); // Masquer la vue
-                    layout_infos.setVisibility(View.VISIBLE); // Afficher la vue
-                } else {
-                    layout_achat.setVisibility(View.VISIBLE); // Afficher la vue
-                    layout_score.setVisibility(View.VISIBLE); // Afficher la vue
-                    layout_infos.setVisibility(View.GONE); // Masquer la vue
-                }
+                Log.d("Clic", "Button Info cliqué");
+                layout_achat.setVisibility(View.GONE); // Masquer la vue
+                layout_score.setVisibility(View.GONE); // Masquer la vue
+                layout_infos.setVisibility(View.VISIBLE); // Afficher la vue
             }
         });
         buttonAchat2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Log.d("Clic", "Button Achat cliqué");
-                if (layout_achat.getVisibility() == View.GONE) {
-                    layout_achat.setVisibility(View.VISIBLE); // Afficher la vue
-                    layout_score.setVisibility(View.GONE); // Masquer la vue
-                    layout_infos.setVisibility(View.GONE); // Masquer la vue
-                } else {
-                    layout_achat.setVisibility(View.GONE); // Masquer la vue
-                    layout_score.setVisibility(View.VISIBLE); // Afficher la vue
-                    layout_infos.setVisibility(View.VISIBLE); // Afficher la vue
-                }
+                layout_achat.setVisibility(View.VISIBLE); // Afficher la vue
+                layout_score.setVisibility(View.GONE); // Masquer la vue
+                layout_infos.setVisibility(View.GONE); // Masquer la vue
             }
         });
 
         buttonScore2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Log.d("Clic", "Button 3 cliqué");
-                if (layout_score.getVisibility() == View.GONE) {
-                    layout_achat.setVisibility(View.GONE); // Masquer la vue
-                    layout_score.setVisibility(View.VISIBLE); // Afficher la vue
-                    layout_infos.setVisibility(View.GONE); // Masquer la vue
-                } else {
-                    layout_achat.setVisibility(View.VISIBLE); // Afficher la vue
-                    layout_score.setVisibility(View.GONE); // Masquer la vue
-                    layout_infos.setVisibility(View.VISIBLE); // Afficher la vue
-                }
+                Log.d("Clic", "Button Score cliqué");
+                layout_achat.setVisibility(View.GONE); // Masquer la vue
+                layout_score.setVisibility(View.VISIBLE); // Afficher la vue
+                layout_infos.setVisibility(View.GONE); // Masquer la vue
             }
         });
 
         buttonInfo2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Log.d("Clic", "Button 4 cliqué");
-                if (layout_infos.getVisibility() == View.GONE) {
-                    layout_achat.setVisibility(View.GONE); // Masquer la vue
-                    layout_score.setVisibility(View.GONE); // Masquer la vue
-                    layout_infos.setVisibility(View.VISIBLE); // Afficher la vue
-                } else {
-                    layout_achat.setVisibility(View.VISIBLE); // Afficher la vue
-                    layout_score.setVisibility(View.VISIBLE); // Afficher la vue
-                    layout_infos.setVisibility(View.GONE); // Masquer la vue
-                }
+                Log.d("Clic", "Button Info cliqué");
+                layout_achat.setVisibility(View.GONE); // Masquer la vue
+                layout_score.setVisibility(View.GONE); // Masquer la vue
+                layout_infos.setVisibility(View.VISIBLE); // Afficher la vue
             }
         });
         buttonAchat3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Log.d("Clic", "Button Achat cliqué");
-                if (layout_achat.getVisibility() == View.GONE) {
-                    layout_achat.setVisibility(View.VISIBLE); // Afficher la vue
-                    layout_score.setVisibility(View.GONE); // Masquer la vue
-                    layout_infos.setVisibility(View.GONE); // Masquer la vue
-                } else {
-                    layout_achat.setVisibility(View.GONE); // Masquer la vue
-                    layout_score.setVisibility(View.VISIBLE); // Afficher la vue
-                    layout_infos.setVisibility(View.VISIBLE); // Afficher la vue
-                }
+                layout_achat.setVisibility(View.VISIBLE); // Afficher la vue
+                layout_score.setVisibility(View.GONE); // Masquer la vue
+                layout_infos.setVisibility(View.GONE); // Masquer la vue
             }
         });
 
         buttonScore3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Log.d("Clic", "Button 3 cliqué");
-                if (layout_score.getVisibility() == View.GONE) {
-                    layout_achat.setVisibility(View.GONE); // Masquer la vue
-                    layout_score.setVisibility(View.VISIBLE); // Afficher la vue
-                    layout_infos.setVisibility(View.GONE); // Masquer la vue
-                } else {
-                    layout_achat.setVisibility(View.VISIBLE); // Afficher la vue
-                    layout_score.setVisibility(View.GONE); // Masquer la vue
-                    layout_infos.setVisibility(View.VISIBLE); // Afficher la vue
-                }
+                Log.d("Clic", "Button Score cliqué");
+                layout_achat.setVisibility(View.GONE); // Masquer la vue
+                layout_score.setVisibility(View.VISIBLE); // Afficher la vue
+                layout_infos.setVisibility(View.GONE); // Masquer la vue
             }
         });
 
         buttonInfo3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Log.d("Clic", "Button 4 cliqué");
-                if (layout_infos.getVisibility() == View.GONE) {
-                    layout_achat.setVisibility(View.GONE); // Masquer la vue
-                    layout_score.setVisibility(View.GONE); // Masquer la vue
-                    layout_infos.setVisibility(View.VISIBLE); // Afficher la vue
-                } else {
-                    layout_achat.setVisibility(View.VISIBLE); // Afficher la vue
-                    layout_score.setVisibility(View.VISIBLE); // Afficher la vue
-                    layout_infos.setVisibility(View.GONE); // Masquer la vue
-                }
+                Log.d("Clic", "Button Info cliqué");
+                layout_achat.setVisibility(View.GONE); // Masquer la vue
+                layout_score.setVisibility(View.GONE); // Masquer la vue
+                layout_infos.setVisibility(View.VISIBLE); // Afficher la vue
             }
         });
-
     }
 }
