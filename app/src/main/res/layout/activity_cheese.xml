@@ -58,7 +58,7 @@
         android:visibility="visible">
 
         <Button
-            android:id="@+id/buttonscore4"
+            android:id="@+id/buttonScore1"
             android:layout_width="200dp"
             android:layout_height="30dp"
             android:layout_marginLeft="130dp"
@@ -71,10 +71,10 @@
             android:textSize="15sp" />
 
         <Button
-            android:id="@+id/buttoninfo4"
+            android:id="@+id/buttonInfo1"
             android:layout_width="200dp"
             android:layout_height="30dp"
-            android:layout_below="@+id/buttonscore4"
+            android:layout_below="@+id/buttonScore1"
             android:layout_marginLeft="240dp"
             android:layout_marginTop="10dp"
             android:layout_marginRight="40dp"
@@ -85,10 +85,10 @@
             android:textSize="15sp" />
 
         <Button
-            android:id="@+id/buttonAchat4"
+            android:id="@+id/buttonAchat1"
             android:layout_width="130dp"
             android:layout_height="30dp"
-            android:layout_below="@+id/buttonscore4"
+            android:layout_below="@+id/buttonScore1"
             android:layout_marginLeft="40dp"
             android:layout_marginTop="10dp"
             android:layout_marginRight="30dp"
@@ -102,29 +102,27 @@
             android:id="@+id/textView13"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/buttonAchat4"
+            android:layout_below="@+id/buttonAchat1"
             android:layout_marginLeft="120dp"
             android:layout_marginTop="20dp"
             android:layout_marginRight="30dp"
             android:fontFamily="@font/fredoka_one"
             android:text="12€"
             android:textColor="#000000"
-            android:textSize="34sp"
-            android:visibility="visible" />
+            android:textSize="34sp" />
 
         <TextView
             android:id="@+id/textView14"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/buttonAchat4"
+            android:layout_below="@+id/buttonAchat1"
             android:layout_marginLeft="240dp"
             android:layout_marginTop="20dp"
             android:layout_marginRight="60dp"
             android:fontFamily="@font/fredoka_one"
             android:text="500G"
             android:textColor="#000000"
-            android:textSize="34sp"
-            android:visibility="visible" />
+            android:textSize="34sp" />
 
         <TextView
             android:id="@+id/textView15"
@@ -136,8 +134,7 @@
             android:fontFamily="sans-serif-black"
             android:text="24€/Kg"
             android:textColor="#1C1C1C"
-            android:textSize="20sp"
-            android:visibility="visible" />
+            android:textSize="20sp" />
 
         <TextView
             android:id="@+id/textView21"
@@ -149,8 +146,7 @@
             android:fontFamily="sans-serif"
             android:text="Récupération sur place ou lors d'un évènement de vente (marché, foire...)"
             android:textColor="#1C1C1C"
-            android:textSize="20sp"
-            android:visibility="visible" />
+            android:textSize="20sp" />
 
         <TextView
             android:id="@+id/textView22"
@@ -162,8 +158,7 @@
             android:fontFamily="sans-serif"
             android:text="Pour les dates et horaires des marchés, se rendre sur la page du producteur"
             android:textColor="#1C1C1C"
-            android:textSize="20sp"
-            android:visibility="visible" />
+            android:textSize="20sp" />
 
         <Button
             android:id="@+id/buttonCommander"
@@ -176,8 +171,7 @@
             android:fontFamily="@font/fredoka_one"
             android:text="Commander"
             android:textColor="#FFFCFC"
-            android:textSize="15sp"
-            android:visibility="visible" />
+            android:textSize="15sp" />
 
     </RelativeLayout>
 
@@ -192,7 +186,7 @@
         android:visibility="gone">
 
         <Button
-            android:id="@+id/buttonscore5"
+            android:id="@+id/buttonScore2"
             android:layout_width="200dp"
             android:layout_height="30dp"
             android:layout_marginLeft="130dp"
@@ -205,10 +199,10 @@
             android:textSize="15sp" />
 
         <Button
-            android:id="@+id/buttoninfo5"
+            android:id="@+id/buttonInfo2"
             android:layout_width="200dp"
             android:layout_height="30dp"
-            android:layout_below="@+id/buttonscore5"
+            android:layout_below="@+id/buttonScore2"
             android:layout_marginLeft="240dp"
             android:layout_marginTop="10dp"
             android:layout_marginRight="40dp"
@@ -219,10 +213,10 @@
             android:textSize="15sp" />
 
         <Button
-            android:id="@+id/buttonAchat5"
+            android:id="@+id/buttonAchat2"
             android:layout_width="130dp"
             android:layout_height="30dp"
-            android:layout_below="@+id/buttonscore5"
+            android:layout_below="@+id/buttonScore2"
             android:layout_marginLeft="40dp"
             android:layout_marginTop="10dp"
             android:layout_marginRight="30dp"
@@ -237,7 +231,7 @@
             style="?android:attr/progressBarStyle"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:layout_below="@+id/buttonAchat5"
+            android:layout_below="@+id/buttonAchat2"
             android:layout_centerHorizontal="true"
             android:max="100"
             android:progress="87" />
@@ -246,7 +240,7 @@
             android:id="@+id/textView9"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/buttonAchat5"
+            android:layout_below="@+id/buttonAchat2"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="25dp"
             android:fontFamily="@font/fredoka_one"
@@ -399,7 +393,7 @@
         android:visibility="gone">
 
         <Button
-            android:id="@+id/buttonscore6"
+            android:id="@+id/buttonScore3"
             android:layout_width="200dp"
             android:layout_height="30dp"
             android:layout_marginLeft="130dp"
@@ -412,10 +406,10 @@
             android:textSize="15sp" />
 
         <Button
-            android:id="@+id/buttoninfo6"
+            android:id="@+id/buttonInfo3"
             android:layout_width="200dp"
             android:layout_height="30dp"
-            android:layout_below="@+id/buttonscore6"
+            android:layout_below="@+id/buttonScore3"
             android:layout_marginLeft="240dp"
             android:layout_marginTop="10dp"
             android:layout_marginRight="40dp"
@@ -426,10 +420,10 @@
             android:textSize="15sp" />
 
         <Button
-            android:id="@+id/buttonAchat6"
+            android:id="@+id/buttonAchat3"
             android:layout_width="130dp"
             android:layout_height="30dp"
-            android:layout_below="@+id/buttonscore6"
+            android:layout_below="@+id/buttonScore3"
             android:layout_marginLeft="40dp"
             android:layout_marginTop="10dp"
             android:layout_marginRight="30dp"
@@ -443,7 +437,7 @@
             android:id="@+id/textView11"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/buttonAchat6"
+            android:layout_below="@+id/buttonAchat3"
             android:layout_marginStart="20dp"
             android:layout_marginTop="20dp"
             android:fontFamily="@font/fredoka_one"
