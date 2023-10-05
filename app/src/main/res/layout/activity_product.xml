@@ -33,7 +33,8 @@
         android:layout_below="@+id/imageView2"
         android:background="#FFFEEE"
         android:orientation="vertical"
-        android:visibility="visible">
+        android:visibility="visible"
+        android:id="@+id/layout_products">
 
         <Button
             android:id="@+id/buttonMyProduct1"
@@ -101,7 +102,8 @@
         android:layout_below="@+id/imageView2"
         android:background="#FFFEEE"
         android:orientation="vertical"
-        android:visibility="gone">
+        android:visibility="gone"
+        android:id="@+id/layout_profile">
 
         <Button
             android:id="@+id/buttonMyProduct2"
