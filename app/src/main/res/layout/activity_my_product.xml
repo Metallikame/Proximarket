@@ -56,13 +56,33 @@
         android:textSize="15sp" />
 
     <ImageView
-        android:id="@+id/products"
+        android:id="@+id/laitfermier"
         android:layout_below="@+id/button_myprofil"
         android:layout_centerHorizontal="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:contentDescription="products"
-        android:src="@drawable/mesproduits" />
+        android:src="@drawable/laitfermier" />
+
+    <ImageView
+        android:id="@+id/boeufscore"
+        android:layout_below="@+id/laitfermier"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:contentDescription="products"
+        android:src="@drawable/boeufscore" />
+
+    <ImageView
+        android:id="@+id/curescore"
+        android:layout_below="@+id/boeufscore"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:contentDescription="products"
+        android:src="@drawable/curescore" />
 
 </RelativeLayout>
