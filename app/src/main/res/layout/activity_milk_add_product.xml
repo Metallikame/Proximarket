@@ -51,15 +51,15 @@
 
     <Button
         android:id="@+id/button3"
-        android:layout_below="@+id/button4"
-        android:layout_width="130"
+        android:layout_below="@+id/milk"
+        android:layout_width="200dp"
         android:layout_height="30dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginLeft="40dp"
-        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginRight="130dp"
         android:background="@drawable/activity_connexion_border"
         android:fontFamily="@font/fredoka_one"
-        android:text="Infos"
+        android:text="Score"
         android:textColor="#FFFCFC"
         android:textSize="15sp" />
 
@@ -67,24 +67,24 @@
         android:id="@+id/button4"
         android:layout_width="200dp"
         android:layout_height="30dp"
-        android:layout_below="@+id/milk"
-        android:layout_marginLeft="130dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginRight="130dp"
+        android:layout_below="@+id/button3"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="40dp"
         android:background="@drawable/activity_input_description"
         android:fontFamily="@font/fredoka_one"
-        android:text="Score"
+        android:text="Infos"
         android:textColor="#FFFCFC"
         android:textSize="15sp" />
 
     <Button
         android:id="@+id/buttonAchat"
-        android:layout_width="200dp"
+        android:layout_width="130dp"
         android:layout_height="30dp"
-        android:layout_below="@+id/button4"
-        android:layout_marginLeft="240dp"
+        android:layout_below="@+id/button3"
+        android:layout_marginLeft="40dp"
         android:layout_marginTop="10dp"
-        android:layout_marginRight="40dp"
+        android:layout_marginRight="30dp"
         android:background="@drawable/activity_input_description"
         android:fontFamily="@font/fredoka_one"
         android:text="Achat"
@@ -92,27 +92,78 @@
         android:textSize="15sp" />
 
     <TextView
-        android:id="@+id/textView11"
-        android:layout_below="@+id/buttonAchat"
+        android:id="@+id/textView13"
         android:layout_width="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="20dp"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonAchat"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
         android:fontFamily="@font/fredoka_one"
-        android:textColor="#282828"
-        android:textSize="28sp"
-        android:text="Description :" />
+        android:text="1.50€"
+        android:textColor="#000000"
+        android:textSize="34sp" />
 
     <TextView
-        android:id="@+id/textView12"
+        android:id="@+id/textView14"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView11"
-        android:layout_marginStart="20dp"
+        android:layout_below="@+id/buttonAchat"
+        android:layout_marginLeft="240dp"
         android:layout_marginTop="20dp"
-        android:fontFamily="sans-serif"
-        android:text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore harum sunt vero neque dolorem quibusdam quasi, possimus dolore quidem blanditiis aut accusamus commodi quam ab numquam officia enim, aliquid, illo incidunt quia! Eaque excepturi deleniti nobis vitae ad dolorum provident rerum odit. Fuga, doloremque eligendi qui saepe perspiciatis harum pariatur corporis illo. Neque iste sunt, architecto sapiente autem cumque minus porro possimus commodi maxime dolore ea quos modi repellat libero sed, dicta magni. Eligendi itaque facilis fugit quia! Voluptatibus sit molestiae, provident rerum harum minima modi inventore? Expedita non adipisci impedit sint tenetur repudiandae, dolorum libero corporis alias ipsum voluptates!"
+        android:layout_marginRight="60dp"
+        android:fontFamily="@font/fredoka_one"
+        android:text="1L"
         android:textColor="#000000"
-        android:textSize="14sp" />
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView14"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-black"
+        android:text="1€50/L"
+        android:textColor="#1C1C1C"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView15"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif"
+        android:text="Récupération sur place ou lors d'un évènement de vente (marché, foire...)"
+        android:textColor="#1C1C1C"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView21"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif"
+        android:text="Pour les dates et horaires des marchés, se rendre sur la page du producteur"
+        android:textColor="#1C1C1C"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/buttonCommander"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/textView22"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/activity_connexion_border"
+        android:fontFamily="@font/fredoka_one"
+        android:text="Commander"
+        android:textColor="#FFFCFC"
+        android:textSize="15sp" />
 
 </RelativeLayout>
