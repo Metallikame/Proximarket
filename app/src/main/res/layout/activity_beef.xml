@@ -49,11 +49,17 @@
         android:contentDescription="logo_prox_market"
         android:src="@drawable/beef" />
 
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/beef"
+        android:background="#FFFEEE"
+        android:orientation="vertical">
+
     <Button
         android:id="@+id/button3"
         android:layout_width="200dp"
         android:layout_height="30dp"
-        android:layout_below="@+id/beef"
         android:layout_marginLeft="130dp"
         android:layout_marginTop="20dp"
         android:layout_marginRight="130dp"
@@ -172,7 +178,58 @@
         android:textColor="#FFFCFC"
         android:textSize="15sp" />
 
+    </RelativeLayout>
+
     <!-- Partie  Score-->
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:layout_below="@+id/beef"
+        android:background="#FFFEEE"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button21"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="130dp"
+            android:background="@drawable/activity_connexion_border"
+            android:fontFamily="@font/fredoka_one"
+            android:text="Score"
+            android:textColor="#FFFCFC"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/button15"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/button21"
+            android:layout_marginLeft="240dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/activity_input_description"
+            android:fontFamily="@font/fredoka_one"
+            android:text="Infos"
+            android:textColor="#FFFCFC"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/buttonAchat2"
+            android:layout_width="130dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/button21"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/activity_input_description"
+            android:fontFamily="@font/fredoka_one"
+            android:text="Achat"
+            android:textColor="#FFFCFC"
+            android:textSize="15sp" />
 
     <ProgressBar
         android:visibility="gone"
@@ -180,17 +237,16 @@
         style="?android:attr/progressBarStyle"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_below="@+id/button4"
+        android:layout_below="@+id/button21"
         android:layout_centerHorizontal="true"
         android:max="100"
         android:progress="87" />
 
     <TextView
-        android:visibility="gone"
         android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/button4"
+        android:layout_below="@+id/button21"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="25dp"
         android:fontFamily="@font/fredoka_one"
@@ -199,7 +255,6 @@
         android:textSize="42sp" />
 
     <TextView
-        android:visibility="gone"
         android:id="@+id/textView10"
         android:layout_below="@+id/textView9"
         android:layout_centerHorizontal="true"
@@ -212,7 +267,6 @@
         android:textSize="24sp" />
 
     <TextView
-        android:visibility="gone"
         android:id="@+id/textView16"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -225,7 +279,6 @@
         android:textSize="18sp" />
 
     <ProgressBar
-        android:visibility="gone"
         android:id="@+id/progressBar2"
         style="?android:attr/progressBarStyleHorizontal"
         android:layout_width="180dp"
@@ -238,7 +291,6 @@
         android:progress="90" />
 
     <TextView
-        android:visibility="gone"
         android:id="@+id/textView17"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -251,7 +303,6 @@
         android:textSize="18sp" />
 
     <ProgressBar
-        android:visibility="gone"
         android:id="@+id/progressBar3"
         style="?android:attr/progressBarStyleHorizontal"
         android:layout_width="180dp"
@@ -264,7 +315,6 @@
         android:progress="90" />
 
     <TextView
-        android:visibility="gone"
         android:id="@+id/textView18"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -277,7 +327,6 @@
         android:textSize="18sp" />
 
     <ProgressBar
-        android:visibility="gone"
         android:id="@+id/progressBar4"
         style="?android:attr/progressBarStyleHorizontal"
         android:layout_width="180dp"
@@ -290,7 +339,6 @@
         android:progress="90" />
 
     <TextView
-        android:visibility="gone"
         android:id="@+id/textView19"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -303,7 +351,6 @@
         android:textSize="18sp" />
 
     <ProgressBar
-        android:visibility="gone"
         android:id="@+id/progressBar21"
         style="?android:attr/progressBarStyleHorizontal"
         android:layout_width="180dp"
@@ -316,7 +363,6 @@
         android:progress="90" />
 
     <TextView
-        android:visibility="gone"
         android:id="@+id/textView20"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -329,7 +375,6 @@
         android:textSize="17sp" />
 
     <ProgressBar
-        android:visibility="gone"
         android:id="@+id/progressBar6"
         style="?android:attr/progressBarStyleHorizontal"
         android:layout_width="180dp"
@@ -341,12 +386,62 @@
         android:max="100"
         android:progress="90" />
 
+    </RelativeLayout>
+
     <!-- Partie  Infos-->
 
-    <TextView
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:visibility="gone"
+        android:layout_below="@+id/beef"
+        android:background="#FFFEEE"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/buttonscore2"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="130dp"
+            android:background="@drawable/activity_input_description"
+            android:fontFamily="@font/fredoka_one"
+            android:text="Score"
+            android:textColor="#FFFCFC"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/buttoninfo2"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/buttonscore2"
+            android:layout_marginLeft="240dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/activity_connexion_border"
+            android:fontFamily="@font/fredoka_one"
+            android:text="Infos"
+            android:textColor="#FFFCFC"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/buttonachat3"
+            android:layout_width="130dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/buttonscore2"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/activity_input_description"
+            android:fontFamily="@font/fredoka_one"
+            android:text="Achat"
+            android:textColor="#FFFCFC"
+            android:textSize="15sp" />
+
+    <TextView
         android:id="@+id/textView11"
-        android:layout_below="@+id/buttonAchat"
+        android:layout_below="@+id/buttonachat3"
         android:layout_width="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
@@ -357,7 +452,6 @@
         android:text="Description :" />
 
     <TextView
-        android:visibility="gone"
         android:id="@+id/textView12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -368,5 +462,7 @@
         android:text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore harum sunt vero neque dolorem quibusdam quasi, possimus dolore quidem blanditiis aut accusamus commodi quam ab numquam officia enim, aliquid, illo incidunt quia! Eaque excepturi deleniti nobis vitae ad dolorum provident rerum odit. Fuga, doloremque eligendi qui saepe perspiciatis harum pariatur corporis illo. Neque iste sunt, architecto sapiente autem cumque minus porro possimus commodi maxime dolore ea quos modi repellat libero sed, dicta magni. Eligendi itaque facilis fugit quia! Voluptatibus sit molestiae, provident rerum harum minima modi inventore? Expedita non adipisci impedit sint tenetur repudiandae, dolorum libero corporis alias ipsum voluptates!"
         android:textColor="#000000"
         android:textSize="14sp" />
+
+    </RelativeLayout>
 
 </RelativeLayout>
