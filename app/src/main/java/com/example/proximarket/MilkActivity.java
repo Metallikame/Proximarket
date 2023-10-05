@@ -10,9 +10,6 @@ import android.util.Log;
 
 public class MilkActivity extends Activity {
 
-    private Button buttonAchat;
-    private Button button3;
-    private Button button4;
     private RelativeLayout layout_achat;
     private RelativeLayout layout_score;
     private RelativeLayout layout_infos;
@@ -29,7 +26,7 @@ public class MilkActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_beef);
+        setContentView(R.layout.activity_milk);
 
         layout_achat = (RelativeLayout) findViewById(R.id.layout_achat);
         layout_score = (RelativeLayout) findViewById(R.id.layout_score);

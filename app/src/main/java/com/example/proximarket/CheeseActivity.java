@@ -29,7 +29,7 @@ public class CheeseActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_beef);
+        setContentView(R.layout.activity_cheese);
 
         layout_achat = (RelativeLayout) findViewById(R.id.layout_achat);
         layout_score = (RelativeLayout) findViewById(R.id.layout_score);
