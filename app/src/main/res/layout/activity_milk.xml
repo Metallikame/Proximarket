@@ -50,13 +50,13 @@
         android:src="@drawable/milk" />
 
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/layout_achat"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@+id/milk"
         android:background="#FFFEEE"
         android:orientation="vertical"
-        android:visibility="visible"
-        android:id="@+id/layout_achat">
+        android:visibility="visible">
 
         <Button
             android:id="@+id/buttonScore1"
@@ -179,13 +179,13 @@
     <!-- Partie  Score-->
 
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/layout_score"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@+id/milk"
         android:background="#FFFEEE"
         android:orientation="vertical"
-        android:visibility="gone"
-        android:id="@+id/layout_score">
+        android:visibility="gone">
 
         <Button
             android:id="@+id/buttonScore2"
@@ -387,13 +387,13 @@
     <!-- Partie  Infos-->
 
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/layout_infos"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@+id/milk"
         android:background="#FFFEEE"
         android:orientation="vertical"
-        android:visibility="gone"
-        android:id="@+id/layout_infos">
+        android:visibility="gone">
 
         <Button
             android:id="@+id/buttonScore3"

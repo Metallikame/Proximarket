@@ -2,10 +2,10 @@ package com.example.proximarket;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.content.SharedPreferences;
 import android.widget.EditText;
 
 public class CreateAccountActivity extends Activity {
@@ -13,6 +13,7 @@ public class CreateAccountActivity extends Activity {
     private Button buttonValidate;
     private EditText identifiants;
     private EditText password;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
