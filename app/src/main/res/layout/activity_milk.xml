@@ -29,10 +29,10 @@
 
     <TextView
         android:id="@+id/textView8"
-        android:layout_centerHorizontal="true"
-        android:layout_below="@+id/imageView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView2"
+        android:layout_centerHorizontal="true"
         android:fontFamily="@font/fredoka_one"
         android:text="Lait fermier"
         android:textAlignment="center"
@@ -41,21 +41,21 @@
 
     <ImageView
         android:id="@+id/milk"
-        android:layout_below="@+id/textView8"
-        android:layout_centerHorizontal="true"
         android:layout_width="200dp"
         android:layout_height="160dp"
+        android:layout_below="@+id/textView8"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
         android:contentDescription="logo_prox_market"
         android:src="@drawable/milk" />
 
     <Button
         android:id="@+id/button3"
-        android:layout_below="@+id/milk"
         android:layout_width="200dp"
         android:layout_height="30dp"
-        android:layout_marginTop="20dp"
+        android:layout_below="@+id/milk"
         android:layout_marginLeft="130dp"
+        android:layout_marginTop="20dp"
         android:layout_marginRight="130dp"
         android:background="@drawable/activity_connexion_border"
         android:fontFamily="@font/fredoka_one"
@@ -92,7 +92,6 @@
         android:textSize="15sp" />
 
     <TextView
-        android:visibility="visible"
         android:id="@+id/textView13"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -103,10 +102,10 @@
         android:fontFamily="@font/fredoka_one"
         android:text="1.50€"
         android:textColor="#000000"
-        android:textSize="34sp" />
+        android:textSize="34sp"
+        android:visibility="visible" />
 
     <TextView
-        android:visibility="visible"
         android:id="@+id/textView14"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -117,10 +116,10 @@
         android:fontFamily="@font/fredoka_one"
         android:text="1L"
         android:textColor="#000000"
-        android:textSize="34sp" />
+        android:textSize="34sp"
+        android:visibility="visible" />
 
     <TextView
-        android:visibility="visible"
         android:id="@+id/textView15"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -130,10 +129,10 @@
         android:fontFamily="sans-serif-black"
         android:text="1€50/L"
         android:textColor="#1C1C1C"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:visibility="visible" />
 
     <TextView
-        android:visibility="visible"
         android:id="@+id/textView21"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -143,10 +142,10 @@
         android:fontFamily="sans-serif"
         android:text="Récupération sur place ou lors d'un évènement de vente (marché, foire...)"
         android:textColor="#1C1C1C"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:visibility="visible" />
 
     <TextView
-        android:visibility="visible"
         android:id="@+id/textView22"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -156,26 +155,26 @@
         android:fontFamily="sans-serif"
         android:text="Pour les dates et horaires des marchés, se rendre sur la page du producteur"
         android:textColor="#1C1C1C"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:visibility="visible" />
 
     <Button
-        android:visibility="visible"
         android:id="@+id/buttonCommander"
         android:layout_width="230dp"
         android:layout_height="50dp"
         android:layout_below="@+id/textView22"
-        android:layout_marginTop="10dp"
         android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
         android:background="@drawable/activity_connexion_border"
         android:fontFamily="@font/fredoka_one"
         android:text="Commander"
         android:textColor="#FFFCFC"
-        android:textSize="15sp" />
+        android:textSize="15sp"
+        android:visibility="visible" />
 
     <!-- Partie  Score-->
 
     <ProgressBar
-        android:visibility="gone"
         android:id="@+id/progressBar5"
         style="?android:attr/progressBarStyle"
         android:layout_width="100dp"
@@ -183,10 +182,10 @@
         android:layout_below="@+id/button4"
         android:layout_centerHorizontal="true"
         android:max="100"
-        android:progress="94" />
+        android:progress="94"
+        android:visibility="gone" />
 
     <TextView
-        android:visibility="gone"
         android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -196,23 +195,23 @@
         android:fontFamily="@font/fredoka_one"
         android:text="94"
         android:textColor="#000000"
-        android:textSize="42sp" />
+        android:textSize="42sp"
+        android:visibility="gone" />
 
     <TextView
-        android:visibility="gone"
         android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_below="@+id/textView9"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:fontFamily="@font/fredoka_one"
         android:text="Eco-score : Excellent"
         android:textColor="#000000"
-        android:textSize="24sp" />
+        android:textSize="24sp"
+        android:visibility="gone" />
 
     <TextView
-        android:visibility="gone"
         android:id="@+id/textView16"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -222,23 +221,23 @@
         android:fontFamily="@font/fredoka_one"
         android:text="Qualité du produit"
         android:textColor="#282828"
-        android:textSize="18sp" />
+        android:textSize="18sp"
+        android:visibility="gone" />
 
     <ProgressBar
-        android:visibility="gone"
         android:id="@+id/progressBar2"
         style="?android:attr/progressBarStyleHorizontal"
         android:layout_width="180dp"
         android:layout_height="10dp"
         android:layout_below="@+id/textView10"
+        android:layout_marginStart="220dp"
         android:layout_marginTop="28dp"
         android:layout_marginRight="80dp"
-        android:layout_marginStart="220dp"
         android:max="100"
-        android:progress="90" />
+        android:progress="90"
+        android:visibility="gone" />
 
     <TextView
-        android:visibility="gone"
         android:id="@+id/textView17"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -248,23 +247,23 @@
         android:fontFamily="@font/fredoka_one"
         android:text="Rapport Qualité/Prix"
         android:textColor="#282828"
-        android:textSize="18sp" />
+        android:textSize="18sp"
+        android:visibility="gone" />
 
     <ProgressBar
-        android:visibility="gone"
         android:id="@+id/progressBar3"
         style="?android:attr/progressBarStyleHorizontal"
         android:layout_width="180dp"
         android:layout_height="10dp"
         android:layout_below="@+id/progressBar2"
+        android:layout_marginStart="220dp"
         android:layout_marginTop="21dp"
         android:layout_marginRight="80dp"
-        android:layout_marginStart="220dp"
         android:max="100"
-        android:progress="90" />
+        android:progress="90"
+        android:visibility="gone" />
 
     <TextView
-        android:visibility="gone"
         android:id="@+id/textView18"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -274,23 +273,23 @@
         android:fontFamily="@font/fredoka_one"
         android:text="Localisation"
         android:textColor="#282828"
-        android:textSize="18sp" />
+        android:textSize="18sp"
+        android:visibility="gone" />
 
     <ProgressBar
-        android:visibility="gone"
         android:id="@+id/progressBar4"
         style="?android:attr/progressBarStyleHorizontal"
         android:layout_width="180dp"
         android:layout_height="10dp"
         android:layout_below="@+id/progressBar3"
+        android:layout_marginStart="220dp"
         android:layout_marginTop="22dp"
         android:layout_marginRight="80dp"
-        android:layout_marginStart="220dp"
         android:max="100"
-        android:progress="90" />
+        android:progress="90"
+        android:visibility="gone" />
 
     <TextView
-        android:visibility="gone"
         android:id="@+id/textView19"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -300,23 +299,23 @@
         android:fontFamily="@font/fredoka_one"
         android:text="Empreinte Carbonne"
         android:textColor="#282828"
-        android:textSize="18sp" />
+        android:textSize="18sp"
+        android:visibility="gone" />
 
     <ProgressBar
-        android:visibility="gone"
         android:id="@+id/progressBar20"
         style="?android:attr/progressBarStyleHorizontal"
         android:layout_width="180dp"
         android:layout_height="10dp"
         android:layout_below="@+id/progressBar4"
+        android:layout_marginStart="220dp"
         android:layout_marginTop="22dp"
         android:layout_marginRight="80dp"
-        android:layout_marginStart="220dp"
         android:max="100"
-        android:progress="90" />
+        android:progress="90"
+        android:visibility="gone" />
 
     <TextView
-        android:visibility="gone"
         android:id="@+id/textView20"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -326,38 +325,38 @@
         android:fontFamily="@font/fredoka_one"
         android:text="Produit Responsable"
         android:textColor="#282828"
-        android:textSize="17sp" />
+        android:textSize="17sp"
+        android:visibility="gone" />
 
     <ProgressBar
-        android:visibility="gone"
         android:id="@+id/progressBar6"
         style="?android:attr/progressBarStyleHorizontal"
         android:layout_width="180dp"
         android:layout_height="10dp"
         android:layout_below="@+id/progressBar20"
+        android:layout_marginStart="220dp"
         android:layout_marginTop="22dp"
         android:layout_marginRight="80dp"
-        android:layout_marginStart="220dp"
         android:max="100"
-        android:progress="90" />
+        android:progress="90"
+        android:visibility="gone" />
 
     <!-- Partie  Infos-->
 
     <TextView
-        android:visibility="gone"
         android:id="@+id/textView11"
-        android:layout_below="@+id/buttonAchat"
         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonAchat"
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
-        android:layout_height="wrap_content"
         android:fontFamily="@font/fredoka_one"
+        android:text="Description :"
         android:textColor="#282828"
         android:textSize="28sp"
-        android:text="Description :" />
+        android:visibility="gone" />
 
     <TextView
-        android:visibility="gone"
         android:id="@+id/textView12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -367,6 +366,7 @@
         android:fontFamily="sans-serif"
         android:text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore harum sunt vero neque dolorem quibusdam quasi, possimus dolore quidem blanditiis aut accusamus commodi quam ab numquam officia enim, aliquid, illo incidunt quia! Eaque excepturi deleniti nobis vitae ad dolorum provident rerum odit. Fuga, doloremque eligendi qui saepe perspiciatis harum pariatur corporis illo. Neque iste sunt, architecto sapiente autem cumque minus porro possimus commodi maxime dolore ea quos modi repellat libero sed, dicta magni. Eligendi itaque facilis fugit quia! Voluptatibus sit molestiae, provident rerum harum minima modi inventore? Expedita non adipisci impedit sint tenetur repudiandae, dolorum libero corporis alias ipsum voluptates!"
         android:textColor="#000000"
-        android:textSize="14sp" />
+        android:textSize="14sp"
+        android:visibility="gone" />
 
 </RelativeLayout>
