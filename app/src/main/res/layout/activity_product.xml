@@ -56,6 +56,7 @@
         android:textSize="15sp" />
 
     <ImageView
+        android:visibility="visible"
         android:id="@+id/laitfermier"
         android:layout_below="@+id/button_myprofil"
         android:layout_centerHorizontal="true"
@@ -66,6 +67,7 @@
         android:src="@drawable/laitfermier" />
 
     <ImageView
+        android:visibility="visible"
         android:id="@+id/boeufscore"
         android:layout_below="@+id/laitfermier"
         android:layout_centerHorizontal="true"
@@ -76,6 +78,7 @@
         android:src="@drawable/boeufscore" />
 
     <ImageView
+        android:visibility="visible"
         android:id="@+id/curescore"
         android:layout_below="@+id/boeufscore"
         android:layout_centerHorizontal="true"
@@ -83,6 +86,59 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:contentDescription="products"
-        android:src="@drawable/curescore" />
+        android:src="@drawable/cure" />
+
+    <!-- Mon profil-->
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_myprofil"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="90dp"
+        android:fontFamily="@font/fredoka_one"
+        android:text="Image"
+        android:textColor="#282828"
+        android:textSize="45sp" />
+
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_myprofil"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="50dp"
+        android:src="@drawable/add" />
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/fredoka_one"
+        android:text="Description"
+        android:textColor="#282828"
+        android:textSize="45sp" />
+
+    <EditText
+        android:visibility="gone"
+        android:id="@+id/edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@+id/textView17"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:gravity="top"
+        android:background="@drawable/border_edittext"
+        android:inputType="text|textMultiLine" />
 
 </RelativeLayout>
