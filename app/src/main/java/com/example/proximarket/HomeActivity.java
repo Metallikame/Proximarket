@@ -7,7 +7,6 @@ import android.view.View;
 import android.widget.ImageView;
 
 public class HomeActivity extends Activity {
-
     private ImageView imageView3;
     private ImageView imageView4;
 

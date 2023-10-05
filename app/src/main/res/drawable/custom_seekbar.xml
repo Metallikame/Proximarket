@@ -3,14 +3,18 @@
     <item android:id="@android:id/background">
         <shape android:shape="oval">
             <solid android:color="#585858" />
-            <size android:width="18dp" android:height="18dp" />
+            <size
+                android:width="18dp"
+                android:height="18dp" />
         </shape>
     </item>
     <item android:id="@android:id/progress">
         <clip>
             <shape android:shape="oval">
                 <solid android:color="#585858" />
-                <size android:width="18dp" android:height="18dp" />
+                <size
+                    android:width="18dp"
+                    android:height="18dp" />
             </shape>
         </clip>
     </item>

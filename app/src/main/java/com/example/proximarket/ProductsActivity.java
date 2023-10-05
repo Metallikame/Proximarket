@@ -3,14 +3,15 @@ package com.example.proximarket;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.provider.MediaStore;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 
-
 public class ProductsActivity extends Activity {
+    private ImageView imageView2;
     private ImageView boeufscore;
     private ImageView laitfermier;
     private ImageView curescore;
@@ -20,18 +21,30 @@ public class ProductsActivity extends Activity {
     private Button buttonMyProfil2;
     private RelativeLayout layout_products;
     private RelativeLayout layout_profile;
+    private ImageView imageView;
+    private static final int PICK_IMAGE_REQUEST = 1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_product);
 
+        imageView2 = (ImageView) findViewById(R.id.imageView2);
         layout_products = (RelativeLayout) findViewById(R.id.layout_products);
         layout_profile = (RelativeLayout) findViewById(R.id.layout_profile);
         buttonMyProduct1 = (Button) findViewById(R.id.buttonMyProduct1);
         buttonMyProduct2 = (Button) findViewById(R.id.buttonMyProduct2);
         buttonMyProfil1 = (Button) findViewById(R.id.buttonMyProfil1);
         buttonMyProfil2 = (Button) findViewById(R.id.buttonMyProfil2);
+
+        imageView2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent homeActivity = new Intent(ProductsActivity.this, HomeActivity.class);
+                startActivity(homeActivity);
+
+            }
+        });
 
         boeufscore = (ImageView) findViewById(R.id.boeufscore);
         boeufscore.setOnClickListener(new View.OnClickListener() {
@@ -97,6 +110,21 @@ public class ProductsActivity extends Activity {
                 layout_products.setVisibility(View.GONE); // Afficher la vue
                 layout_profile.setVisibility(View.VISIBLE); // Masquer la vue
 
+            }
+        });
+
+        imageView = (ImageView) findViewById(R.id.imageView);
+        imageView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Créez une intention (Intent) pour ouvrir la galerie d'images
+                Intent intent = new Intent(Intent.ACTION_PICK, MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
+
+                // Définissez le type de données pour les images
+                intent.setType("image/*");
+
+                // Démarrez l'activité de la galerie d'images
+                startActivityForResult(intent, PICK_IMAGE_REQUEST);
             }
         });
     }

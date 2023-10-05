@@ -126,7 +126,6 @@
             android:layout_marginTop="40dp"
             android:layout_marginRight="50dp"
             android:background="@drawable/activity_connexion_border"
-
             android:fontFamily="@font/fredoka_one"
             android:text="Mon profil"
             android:textColor="#FFFCFC"

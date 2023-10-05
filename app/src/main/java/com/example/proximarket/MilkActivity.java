@@ -1,14 +1,16 @@
 package com.example.proximarket;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.RelativeLayout;
 
-
 public class MilkActivity extends Activity {
+    private ImageView imageView2;
     private RelativeLayout layout_achat;
     private RelativeLayout layout_score;
     private RelativeLayout layout_infos;
@@ -27,6 +29,7 @@ public class MilkActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_milk);
 
+        imageView2 = (ImageView) findViewById(R.id.imageView2);
         layout_achat = (RelativeLayout) findViewById(R.id.layout_achat);
         layout_score = (RelativeLayout) findViewById(R.id.layout_score);
         layout_infos = (RelativeLayout) findViewById(R.id.layout_infos);
@@ -40,7 +43,14 @@ public class MilkActivity extends Activity {
         buttonScore3 = (Button) findViewById(R.id.buttonScore3);
         buttonInfo3 = (Button) findViewById(R.id.buttonInfo3);
 
+        imageView2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent homeActivity = new Intent(MilkActivity.this, HomeActivity.class);
+                startActivity(homeActivity);
 
+            }
+        });
         buttonAchat1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
