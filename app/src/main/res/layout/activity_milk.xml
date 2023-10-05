@@ -29,10 +29,10 @@
 
     <TextView
         android:id="@+id/textView8"
-        android:layout_centerHorizontal="true"
-        android:layout_below="@+id/imageView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView2"
+        android:layout_centerHorizontal="true"
         android:fontFamily="@font/fredoka_one"
         android:text="Lait fermier"
         android:textAlignment="center"
@@ -41,332 +41,422 @@
 
     <ImageView
         android:id="@+id/milk"
-        android:layout_below="@+id/textView8"
-        android:layout_centerHorizontal="true"
         android:layout_width="200dp"
         android:layout_height="160dp"
+        android:layout_below="@+id/textView8"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
         android:contentDescription="logo_prox_market"
         android:src="@drawable/milk" />
 
-    <Button
-        android:id="@+id/button3"
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_below="@+id/milk"
-        android:layout_width="200dp"
-        android:layout_height="30dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="130dp"
-        android:layout_marginRight="130dp"
-        android:background="@drawable/activity_connexion_border"
-        android:fontFamily="@font/fredoka_one"
-        android:text="Score"
-        android:textColor="#FFFCFC"
-        android:textSize="15sp" />
+        android:background="#FFFEEE"
+        android:orientation="vertical"
+        android:visibility="visible">
 
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="200dp"
-        android:layout_height="30dp"
-        android:layout_below="@+id/button3"
-        android:layout_marginLeft="240dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginRight="40dp"
-        android:background="@drawable/activity_input_description"
-        android:fontFamily="@font/fredoka_one"
-        android:text="Infos"
-        android:textColor="#FFFCFC"
-        android:textSize="15sp" />
+        <Button
+            android:id="@+id/buttonscore8"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="130dp"
+            android:background="@drawable/activity_input_description"
+            android:fontFamily="@font/fredoka_one"
+            android:text="Score"
+            android:textColor="#FFFCFC"
+            android:textSize="15sp" />
 
-    <Button
-        android:id="@+id/buttonAchat"
-        android:layout_width="130dp"
-        android:layout_height="30dp"
-        android:layout_below="@+id/button3"
-        android:layout_marginLeft="40dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginRight="30dp"
-        android:background="@drawable/activity_input_description"
-        android:fontFamily="@font/fredoka_one"
-        android:text="Achat"
-        android:textColor="#FFFCFC"
-        android:textSize="15sp" />
+        <Button
+            android:id="@+id/buttoninfo8"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/buttonscore8"
+            android:layout_marginLeft="240dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/activity_input_description"
+            android:fontFamily="@font/fredoka_one"
+            android:text="Infos"
+            android:textColor="#FFFCFC"
+            android:textSize="15sp" />
 
-    <TextView
-        android:visibility="visible"
-        android:id="@+id/textView13"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/buttonAchat"
-        android:layout_marginLeft="120dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginRight="30dp"
-        android:fontFamily="@font/fredoka_one"
-        android:text="1.50€"
-        android:textColor="#000000"
-        android:textSize="34sp" />
+        <Button
+            android:id="@+id/buttonAchat8"
+            android:layout_width="130dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/buttonscore8"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/activity_connexion_border"
+            android:fontFamily="@font/fredoka_one"
+            android:text="Achat"
+            android:textColor="#FFFCFC"
+            android:textSize="15sp" />
 
-    <TextView
-        android:visibility="visible"
-        android:id="@+id/textView14"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/buttonAchat"
-        android:layout_marginLeft="240dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginRight="60dp"
-        android:fontFamily="@font/fredoka_one"
-        android:text="1L"
-        android:textColor="#000000"
-        android:textSize="34sp" />
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/buttonAchat8"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="30dp"
+            android:fontFamily="@font/fredoka_one"
+            android:text="1.50€"
+            android:textColor="#000000"
+            android:textSize="34sp" />
 
-    <TextView
-        android:visibility="visible"
-        android:id="@+id/textView15"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView14"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="10dp"
-        android:fontFamily="sans-serif-black"
-        android:text="1€50/L"
-        android:textColor="#1C1C1C"
-        android:textSize="20sp" />
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/buttonAchat8"
+            android:layout_marginLeft="240dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="60dp"
+            android:fontFamily="@font/fredoka_one"
+            android:text="1L"
+            android:textColor="#000000"
+            android:textSize="34sp" />
 
-    <TextView
-        android:visibility="visible"
-        android:id="@+id/textView21"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView15"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="10dp"
-        android:fontFamily="sans-serif"
-        android:text="Récupération sur place ou lors d'un évènement de vente (marché, foire...)"
-        android:textColor="#1C1C1C"
-        android:textSize="20sp" />
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView14"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-black"
+            android:text="1€50/L"
+            android:textColor="#1C1C1C"
+            android:textSize="20sp" />
 
-    <TextView
-        android:visibility="visible"
-        android:id="@+id/textView22"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView21"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="10dp"
-        android:fontFamily="sans-serif"
-        android:text="Pour les dates et horaires des marchés, se rendre sur la page du producteur"
-        android:textColor="#1C1C1C"
-        android:textSize="20sp" />
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView15"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif"
+            android:text="Récupération sur place ou lors d'un évènement de vente (marché, foire...)"
+            android:textColor="#1C1C1C"
+            android:textSize="20sp" />
 
-    <Button
-        android:visibility="visible"
-        android:id="@+id/buttonCommander"
-        android:layout_width="230dp"
-        android:layout_height="50dp"
-        android:layout_below="@+id/textView22"
-        android:layout_marginTop="10dp"
-        android:layout_centerHorizontal="true"
-        android:background="@drawable/activity_connexion_border"
-        android:fontFamily="@font/fredoka_one"
-        android:text="Commander"
-        android:textColor="#FFFCFC"
-        android:textSize="15sp" />
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView21"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif"
+            android:text="Pour les dates et horaires des marchés, se rendre sur la page du producteur"
+            android:textColor="#1C1C1C"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/buttonCommander"
+            android:layout_width="230dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/textView22"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/activity_connexion_border"
+            android:fontFamily="@font/fredoka_one"
+            android:text="Commander"
+            android:textColor="#FFFCFC"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
 
     <!-- Partie  Score-->
 
-    <ProgressBar
-        android:visibility="gone"
-        android:id="@+id/progressBar5"
-        style="?android:attr/progressBarStyle"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_below="@+id/button4"
-        android:layout_centerHorizontal="true"
-        android:max="100"
-        android:progress="94" />
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/milk"
+        android:background="#FFFEEE"
+        android:orientation="vertical"
+        android:visibility="gone">
 
-    <TextView
-        android:visibility="gone"
-        android:id="@+id/textView9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/button4"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="25dp"
-        android:fontFamily="@font/fredoka_one"
-        android:text="94"
-        android:textColor="#000000"
-        android:textSize="42sp" />
+        <Button
+            android:id="@+id/buttonscore9"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="130dp"
+            android:background="@drawable/activity_connexion_border"
+            android:fontFamily="@font/fredoka_one"
+            android:text="Score"
+            android:textColor="#FFFCFC"
+            android:textSize="15sp" />
 
-    <TextView
-        android:visibility="gone"
-        android:id="@+id/textView10"
-        android:layout_below="@+id/textView9"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/fredoka_one"
-        android:text="Eco-score : Excellent"
-        android:textColor="#000000"
-        android:textSize="24sp" />
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/buttonscore9"
+            android:layout_marginLeft="240dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/activity_input_description"
+            android:fontFamily="@font/fredoka_one"
+            android:text="Infos"
+            android:textColor="#FFFCFC"
+            android:textSize="15sp" />
 
-    <TextView
-        android:visibility="gone"
-        android:id="@+id/textView16"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView10"
-        android:layout_marginLeft="25dp"
-        android:layout_marginTop="20dp"
-        android:fontFamily="@font/fredoka_one"
-        android:text="Qualité du produit"
-        android:textColor="#282828"
-        android:textSize="18sp" />
+        <Button
+            android:id="@+id/buttonAchat9"
+            android:layout_width="130dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/buttonscore9"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/activity_input_description"
+            android:fontFamily="@font/fredoka_one"
+            android:text="Achat"
+            android:textColor="#FFFCFC"
+            android:textSize="15sp" />
 
-    <ProgressBar
-        android:visibility="gone"
-        android:id="@+id/progressBar2"
-        style="?android:attr/progressBarStyleHorizontal"
-        android:layout_width="180dp"
-        android:layout_height="10dp"
-        android:layout_below="@+id/textView10"
-        android:layout_marginTop="28dp"
-        android:layout_marginRight="80dp"
-        android:layout_marginStart="220dp"
-        android:max="100"
-        android:progress="90" />
+        <ProgressBar
+            android:id="@+id/progressBar5"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/buttonAchat9"
+            android:layout_centerHorizontal="true"
+            android:max="100"
+            android:progress="94" />
 
-    <TextView
-        android:visibility="gone"
-        android:id="@+id/textView17"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView16"
-        android:layout_marginLeft="25dp"
-        android:layout_marginTop="10dp"
-        android:fontFamily="@font/fredoka_one"
-        android:text="Rapport Qualité/Prix"
-        android:textColor="#282828"
-        android:textSize="18sp" />
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/buttonAchat9"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/fredoka_one"
+            android:text="94"
+            android:textColor="#000000"
+            android:textSize="42sp" />
 
-    <ProgressBar
-        android:visibility="gone"
-        android:id="@+id/progressBar3"
-        style="?android:attr/progressBarStyleHorizontal"
-        android:layout_width="180dp"
-        android:layout_height="10dp"
-        android:layout_below="@+id/progressBar2"
-        android:layout_marginTop="21dp"
-        android:layout_marginRight="80dp"
-        android:layout_marginStart="220dp"
-        android:max="100"
-        android:progress="90" />
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView9"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/fredoka_one"
+            android:text="Eco-score : Excellent"
+            android:textColor="#000000"
+            android:textSize="24sp" />
 
-    <TextView
-        android:visibility="gone"
-        android:id="@+id/textView18"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView17"
-        android:layout_marginLeft="25dp"
-        android:layout_marginTop="10dp"
-        android:fontFamily="@font/fredoka_one"
-        android:text="Localisation"
-        android:textColor="#282828"
-        android:textSize="18sp" />
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView10"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/fredoka_one"
+            android:text="Qualité du produit"
+            android:textColor="#282828"
+            android:textSize="18sp" />
 
-    <ProgressBar
-        android:visibility="gone"
-        android:id="@+id/progressBar4"
-        style="?android:attr/progressBarStyleHorizontal"
-        android:layout_width="180dp"
-        android:layout_height="10dp"
-        android:layout_below="@+id/progressBar3"
-        android:layout_marginTop="22dp"
-        android:layout_marginRight="80dp"
-        android:layout_marginStart="220dp"
-        android:max="100"
-        android:progress="90" />
+        <ProgressBar
+            android:id="@+id/progressBar2"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="180dp"
+            android:layout_height="10dp"
+            android:layout_below="@+id/textView10"
+            android:layout_marginStart="220dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginRight="80dp"
+            android:max="100"
+            android:progress="90" />
 
-    <TextView
-        android:visibility="gone"
-        android:id="@+id/textView19"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView18"
-        android:layout_marginLeft="25dp"
-        android:layout_marginTop="10dp"
-        android:fontFamily="@font/fredoka_one"
-        android:text="Empreinte Carbonne"
-        android:textColor="#282828"
-        android:textSize="18sp" />
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView16"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/fredoka_one"
+            android:text="Rapport Qualité/Prix"
+            android:textColor="#282828"
+            android:textSize="18sp" />
 
-    <ProgressBar
-        android:visibility="gone"
-        android:id="@+id/progressBar20"
-        style="?android:attr/progressBarStyleHorizontal"
-        android:layout_width="180dp"
-        android:layout_height="10dp"
-        android:layout_below="@+id/progressBar4"
-        android:layout_marginTop="22dp"
-        android:layout_marginRight="80dp"
-        android:layout_marginStart="220dp"
-        android:max="100"
-        android:progress="90" />
+        <ProgressBar
+            android:id="@+id/progressBar3"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="180dp"
+            android:layout_height="10dp"
+            android:layout_below="@+id/progressBar2"
+            android:layout_marginStart="220dp"
+            android:layout_marginTop="21dp"
+            android:layout_marginRight="80dp"
+            android:max="100"
+            android:progress="90" />
 
-    <TextView
-        android:visibility="gone"
-        android:id="@+id/textView20"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView19"
-        android:layout_marginLeft="25dp"
-        android:layout_marginTop="10dp"
-        android:fontFamily="@font/fredoka_one"
-        android:text="Produit Responsable"
-        android:textColor="#282828"
-        android:textSize="17sp" />
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView17"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/fredoka_one"
+            android:text="Localisation"
+            android:textColor="#282828"
+            android:textSize="18sp" />
 
-    <ProgressBar
-        android:visibility="gone"
-        android:id="@+id/progressBar6"
-        style="?android:attr/progressBarStyleHorizontal"
-        android:layout_width="180dp"
-        android:layout_height="10dp"
-        android:layout_below="@+id/progressBar20"
-        android:layout_marginTop="22dp"
-        android:layout_marginRight="80dp"
-        android:layout_marginStart="220dp"
-        android:max="100"
-        android:progress="90" />
+        <ProgressBar
+            android:id="@+id/progressBar4"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="180dp"
+            android:layout_height="10dp"
+            android:layout_below="@+id/progressBar3"
+            android:layout_marginStart="220dp"
+            android:layout_marginTop="22dp"
+            android:layout_marginRight="80dp"
+            android:max="100"
+            android:progress="90" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView18"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/fredoka_one"
+            android:text="Empreinte Carbonne"
+            android:textColor="#282828"
+            android:textSize="18sp" />
+
+        <ProgressBar
+            android:id="@+id/progressBar20"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="180dp"
+            android:layout_height="10dp"
+            android:layout_below="@+id/progressBar4"
+            android:layout_marginStart="220dp"
+            android:layout_marginTop="22dp"
+            android:layout_marginRight="80dp"
+            android:max="100"
+            android:progress="90" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView19"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/fredoka_one"
+            android:text="Produit Responsable"
+            android:textColor="#282828"
+            android:textSize="17sp" />
+
+        <ProgressBar
+            android:id="@+id/progressBar6"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="180dp"
+            android:layout_height="10dp"
+            android:layout_below="@+id/progressBar20"
+            android:layout_marginStart="220dp"
+            android:layout_marginTop="22dp"
+            android:layout_marginRight="80dp"
+            android:max="100"
+            android:progress="90" />
+
+    </RelativeLayout>
 
     <!-- Partie  Infos-->
 
-    <TextView
-        android:visibility="gone"
-        android:id="@+id/textView11"
-        android:layout_below="@+id/buttonAchat"
-        android:layout_width="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="20dp"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/fredoka_one"
-        android:textColor="#282828"
-        android:textSize="28sp"
-        android:text="Description :" />
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/milk"
+        android:background="#FFFEEE"
+        android:orientation="vertical"
+        android:visibility="gone">
 
-    <TextView
-        android:visibility="gone"
-        android:id="@+id/textView12"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView11"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="20dp"
-        android:fontFamily="sans-serif"
-        android:text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore harum sunt vero neque dolorem quibusdam quasi, possimus dolore quidem blanditiis aut accusamus commodi quam ab numquam officia enim, aliquid, illo incidunt quia! Eaque excepturi deleniti nobis vitae ad dolorum provident rerum odit. Fuga, doloremque eligendi qui saepe perspiciatis harum pariatur corporis illo. Neque iste sunt, architecto sapiente autem cumque minus porro possimus commodi maxime dolore ea quos modi repellat libero sed, dicta magni. Eligendi itaque facilis fugit quia! Voluptatibus sit molestiae, provident rerum harum minima modi inventore? Expedita non adipisci impedit sint tenetur repudiandae, dolorum libero corporis alias ipsum voluptates!"
-        android:textColor="#000000"
-        android:textSize="14sp" />
+        <Button
+            android:id="@+id/buttonscore10"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="130dp"
+            android:background="@drawable/activity_input_description"
+            android:fontFamily="@font/fredoka_one"
+            android:text="Score"
+            android:textColor="#FFFCFC"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/buttoninfos10"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/buttonscore10"
+            android:layout_marginLeft="240dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/activity_connexion_border"
+            android:fontFamily="@font/fredoka_one"
+            android:text="Infos"
+            android:textColor="#FFFCFC"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/buttonAchat10"
+            android:layout_width="130dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/buttonscore10"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/activity_input_description"
+            android:fontFamily="@font/fredoka_one"
+            android:text="Achat"
+            android:textColor="#FFFCFC"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/buttonAchat10"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/fredoka_one"
+            android:text="Description :"
+            android:textColor="#282828"
+            android:textSize="28sp" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView11"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif"
+            android:text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore harum sunt vero neque dolorem quibusdam quasi, possimus dolore quidem blanditiis aut accusamus commodi quam ab numquam officia enim, aliquid, illo incidunt quia! Eaque excepturi deleniti nobis vitae ad dolorum provident rerum odit. Fuga, doloremque eligendi qui saepe perspiciatis harum pariatur corporis illo. Neque iste sunt, architecto sapiente autem cumque minus porro possimus commodi maxime dolore ea quos modi repellat libero sed, dicta magni. Eligendi itaque facilis fugit quia! Voluptatibus sit molestiae, provident rerum harum minima modi inventore? Expedita non adipisci impedit sint tenetur repudiandae, dolorum libero corporis alias ipsum voluptates!"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
 
 </RelativeLayout>
