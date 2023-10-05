@@ -58,7 +58,7 @@
         android:visibility="visible">
 
         <Button
-            android:id="@+id/buttonscore8"
+            android:id="@+id/buttonScore1"
             android:layout_width="200dp"
             android:layout_height="30dp"
             android:layout_marginLeft="130dp"
@@ -71,10 +71,10 @@
             android:textSize="15sp" />
 
         <Button
-            android:id="@+id/buttoninfo8"
+            android:id="@+id/buttonInfo1"
             android:layout_width="200dp"
             android:layout_height="30dp"
-            android:layout_below="@+id/buttonscore8"
+            android:layout_below="@+id/buttonScore1"
             android:layout_marginLeft="240dp"
             android:layout_marginTop="10dp"
             android:layout_marginRight="40dp"
@@ -85,10 +85,10 @@
             android:textSize="15sp" />
 
         <Button
-            android:id="@+id/buttonAchat8"
+            android:id="@+id/buttonAchat1"
             android:layout_width="130dp"
             android:layout_height="30dp"
-            android:layout_below="@+id/buttonscore8"
+            android:layout_below="@+id/buttonScore1"
             android:layout_marginLeft="40dp"
             android:layout_marginTop="10dp"
             android:layout_marginRight="30dp"
@@ -102,7 +102,7 @@
             android:id="@+id/textView13"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/buttonAchat8"
+            android:layout_below="@+id/buttonAchat1"
             android:layout_marginLeft="120dp"
             android:layout_marginTop="20dp"
             android:layout_marginRight="30dp"
@@ -115,7 +115,7 @@
             android:id="@+id/textView14"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/buttonAchat8"
+            android:layout_below="@+id/buttonAchat1"
             android:layout_marginLeft="240dp"
             android:layout_marginTop="20dp"
             android:layout_marginRight="60dp"
@@ -186,7 +186,7 @@
         android:visibility="gone">
 
         <Button
-            android:id="@+id/buttonscore9"
+            android:id="@+id/buttonScore2"
             android:layout_width="200dp"
             android:layout_height="30dp"
             android:layout_marginLeft="130dp"
@@ -199,10 +199,10 @@
             android:textSize="15sp" />
 
         <Button
-            android:id="@+id/button8"
+            android:id="@+id/buttonInfo2"
             android:layout_width="200dp"
             android:layout_height="30dp"
-            android:layout_below="@+id/buttonscore9"
+            android:layout_below="@+id/buttonScore2"
             android:layout_marginLeft="240dp"
             android:layout_marginTop="10dp"
             android:layout_marginRight="40dp"
@@ -213,10 +213,10 @@
             android:textSize="15sp" />
 
         <Button
-            android:id="@+id/buttonAchat9"
+            android:id="@+id/buttonAchat2"
             android:layout_width="130dp"
             android:layout_height="30dp"
-            android:layout_below="@+id/buttonscore9"
+            android:layout_below="@+id/buttonScore2"
             android:layout_marginLeft="40dp"
             android:layout_marginTop="10dp"
             android:layout_marginRight="30dp"
@@ -231,7 +231,7 @@
             style="?android:attr/progressBarStyle"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:layout_below="@+id/buttonAchat9"
+            android:layout_below="@+id/buttonAchat2"
             android:layout_centerHorizontal="true"
             android:max="100"
             android:progress="94" />
@@ -240,7 +240,7 @@
             android:id="@+id/textView9"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/buttonAchat9"
+            android:layout_below="@+id/buttonAchat2"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="25dp"
             android:fontFamily="@font/fredoka_one"
@@ -393,7 +393,7 @@
         android:visibility="gone">
 
         <Button
-            android:id="@+id/buttonscore10"
+            android:id="@+id/buttonScore3"
             android:layout_width="200dp"
             android:layout_height="30dp"
             android:layout_marginLeft="130dp"
@@ -406,10 +406,10 @@
             android:textSize="15sp" />
 
         <Button
-            android:id="@+id/buttoninfos10"
+            android:id="@+id/buttonInfo3"
             android:layout_width="200dp"
             android:layout_height="30dp"
-            android:layout_below="@+id/buttonscore10"
+            android:layout_below="@+id/buttonScore3"
             android:layout_marginLeft="240dp"
             android:layout_marginTop="10dp"
             android:layout_marginRight="40dp"
@@ -420,10 +420,10 @@
             android:textSize="15sp" />
 
         <Button
-            android:id="@+id/buttonAchat10"
+            android:id="@+id/buttonAchat3"
             android:layout_width="130dp"
             android:layout_height="30dp"
-            android:layout_below="@+id/buttonscore10"
+            android:layout_below="@+id/buttonScore3"
             android:layout_marginLeft="40dp"
             android:layout_marginTop="10dp"
             android:layout_marginRight="30dp"
@@ -437,7 +437,7 @@
             android:id="@+id/textView11"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/buttonAchat10"
+            android:layout_below="@+id/buttonAchat3"
             android:layout_marginStart="20dp"
             android:layout_marginTop="20dp"
             android:fontFamily="@font/fredoka_one"
