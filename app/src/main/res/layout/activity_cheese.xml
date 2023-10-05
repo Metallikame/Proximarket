@@ -34,7 +34,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/fredoka_one"
-        android:text="Fromage râpé"
+        android:text="Curé Nantais"
         android:textAlignment="center"
         android:textColor="#282828"
         android:textSize="28sp" />
@@ -47,7 +47,7 @@
         android:layout_height="160dp"
         android:layout_marginTop="20dp"
         android:contentDescription="logo_prox_market"
-        android:src="@drawable/cheese" />
+        android:src="@drawable/cure_nantais" />
 
     <Button
         android:id="@+id/button3"
@@ -55,8 +55,8 @@
         android:layout_width="200dp"
         android:layout_height="30dp"
         android:layout_marginTop="20dp"
-        android:layout_marginLeft="50dp"
-        android:layout_marginRight="230dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginRight="130dp"
         android:background="@drawable/activity_connexion_border"
         android:fontFamily="@font/fredoka_one"
         android:text="Score"
@@ -67,13 +67,26 @@
         android:id="@+id/button4"
         android:layout_width="200dp"
         android:layout_height="30dp"
-        android:layout_below="@+id/cheese"
-        android:layout_marginLeft="230dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginRight="50dp"
+        android:layout_below="@+id/button3"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="40dp"
         android:background="@drawable/activity_input_description"
         android:fontFamily="@font/fredoka_one"
-        android:text="Description"
+        android:text="Infos"
+        android:textColor="#FFFCFC"
+        android:textSize="15sp" />
+    <Button
+        android:id="@+id/buttonAchat"
+        android:layout_width="130dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/button3"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/activity_input_description"
+        android:fontFamily="@font/fredoka_one"
+        android:text="Achat"
         android:textColor="#FFFCFC"
         android:textSize="15sp" />
 
@@ -82,9 +95,8 @@
         style="?android:attr/progressBarStyle"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_below="@+id/button3"
+        android:layout_below="@+id/button4"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="15dp"
         android:max="100"
         android:progress="10" />
 
@@ -92,9 +104,9 @@
         android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/button3"
+        android:layout_below="@+id/button4"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="38dp"
+        android:layout_marginTop="25dp"
         android:fontFamily="@font/fredoka_one"
         android:text="72"
         android:textColor="#000000"

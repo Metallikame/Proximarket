@@ -25,27 +25,17 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="50dp"
         android:contentDescription="producteur"
-        android:src="@drawable/producteur"
+        android:src="@drawable/prod"
         android:textAlignment="center" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:fontFamily="@font/fredoka_one"
-        android:text="Producteur"
-        android:textColor="#FFFFFF"
-        android:textSize="30sp" />
 
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="337dp"
         android:layout_height="181dp"
-        android:layout_below="@+id/textView"
+        android:layout_below="@+id/imageView3"
         android:layout_centerHorizontal="true"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="90dp"
+        android:layout_marginTop="50dp"
         android:contentDescription="Consommateur"
         android:src="@drawable/consommateur"
         android:textAlignment="center" />
