@@ -28,13 +28,13 @@
         android:textSize="28sp" />
 
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/layout_products"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@+id/imageView2"
         android:background="#FFFEEE"
         android:orientation="vertical"
-        android:visibility="visible"
-        android:id="@+id/layout_products">
+        android:visibility="visible">
 
         <Button
             android:id="@+id/buttonMyProduct1"
@@ -97,13 +97,13 @@
     <!-- Mon profil-->
 
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/layout_profile"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@+id/imageView2"
         android:background="#FFFEEE"
         android:orientation="vertical"
-        android:visibility="gone"
-        android:id="@+id/layout_profile">
+        android:visibility="gone">
 
         <Button
             android:id="@+id/buttonMyProduct2"

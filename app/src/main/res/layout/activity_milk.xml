@@ -55,8 +55,8 @@
         android:layout_below="@+id/milk"
         android:background="#FFFEEE"
         android:orientation="vertical"
-        android:visibility="visible"
-        android:id="@+id/layout_achat">
+        android:id="@+id/layout_achat"
+        android:visibility="visible">
 
         <Button
             android:id="@+id/buttonScore1"
