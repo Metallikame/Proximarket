@@ -31,9 +31,6 @@ public class CheeseActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_beef);
 
-        buttonAchat = (Button) findViewById(R.id.buttonAchat);
-        button3 = (Button) findViewById(R.id.button3);
-        button4 = (Button) findViewById(R.id.button4);
         layout_achat = (RelativeLayout) findViewById(R.id.layout_achat);
         layout_score = (RelativeLayout) findViewById(R.id.layout_score);
         layout_infos = (RelativeLayout) findViewById(R.id.layout_infos);
