@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.ProgressBar;
+import android.widget.TextView;
 
 public class BeefActivity extends Activity {
 
@@ -22,10 +24,11 @@ public class BeefActivity extends Activity {
         button3 = (Button) findViewById(R.id.button3);
         button4 = (Button) findViewById(R.id.button4);
 
+
         buttonAchat.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                
 
             }
         });

@@ -4,7 +4,6 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageView;
 
 public class HomeActivity extends Activity {
@@ -23,7 +22,7 @@ public class HomeActivity extends Activity {
         imageView3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myProductsActivity = new Intent(HomeActivity.this, MyProductsActivity.class);
+                Intent myProductsActivity = new Intent(HomeActivity.this, ProductsActivity.class);
                 startActivity(myProductsActivity);
 
             }
